@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "gitlabci": {
+    "registryAliases": {
+      "\$\{DOCKER_REGISTRY_LIBRARY\}": "foobar1.registry.com/",
+      "\$DOCKER_REGISTRY_LIBRARY": "foobar2.registry.com/",
+      "bla.blabla.ch": "foobar3.registry.com/"
+    }
+  }
+}

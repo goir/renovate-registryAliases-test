@@ -1,0 +1,20 @@
+jobA:
+  stage: quality
+  image: ${DOCKER_REGISTRY_LIBRARY}node:lts-alpine
+
+jobB:
+  stage: quality
+  image: $DOCKER_REGISTRY_LIBRARYnode:lts-alpine
+
+jobC:
+  stage: quality
+  image: $DOCKER_REGISTRY_LIBRARY/node:lts-alpine
+
+jobE:
+  stage: quality
+  image: $PROXY/node:lts-alpine
+
+jobD:
+  stage: quality
+  image: bla.blabla.chnode:lts-alpine
+
