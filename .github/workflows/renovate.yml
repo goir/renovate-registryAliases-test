@@ -9,6 +9,8 @@ on:
   pull_request:
     branches:
       - main
+env:
+  LOG_LEVEL: 'debug'
 jobs:
   renovate:
     runs-on: ubuntu-latest
