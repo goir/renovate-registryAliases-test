@@ -1,2 +1,9 @@
-- name: Renovate Bot GitHub Action
-  uses: renovatebot/github-action@v40.2.6
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  renovate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Renovate Bot GitHub Action
+        uses: renovatebot/github-action@v40.2.6
